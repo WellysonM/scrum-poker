@@ -1,0 +1,14 @@
+{
+  "name": "basic_crud_api",
+  "version": "1.0.0",
+  "description": "Backend da aplicação com banco JSON.",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "Wellyson Marques",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}

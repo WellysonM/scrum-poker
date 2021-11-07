@@ -1,1 +1,1 @@
-# scrum-poker
+# Scrum poker yu-gi-oh
