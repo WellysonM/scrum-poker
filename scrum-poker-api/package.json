@@ -4,11 +4,15 @@
   "description": "Backend da aplicação com banco JSON.",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json"
+    "start": "json-server --watch db.json",
+    "build": "vue-cli-service build",
+    "postinstall": "npm run build",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run dev"
   },
   "author": "Wellyson Marques",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "json-server": "^0.15.1"
   }
 }
